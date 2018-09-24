@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-  int num,x;
+  int num,var;
   cout<<" enter your number ";
   cin>>num;
   int counter=0;
-  for(x=1;x<=num;x++)
+  for(var=1;var<=num;var++)
   {
-    if(num%x==0)
+    if(num%var==0)
     {
       counter ++;
     }
